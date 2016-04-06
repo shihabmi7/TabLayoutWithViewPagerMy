@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:paddingBottom="5dp">
+
+    <!-- <ImageView -->
+    <!-- android:id="@+id/imageView_masjid_pic" -->
+    <!-- android:layout_width="70dp" -->
+    <!-- android:layout_height="55dp" -->
+    <!-- android:layout_margin="5dp" -->
+    <!-- android:scaleType="centerCrop" -->
+    <!-- android:src="@drawable/ic_launcher" /> -->
+
+    <ImageView
+        android:id="@+id/imageView_fish_pic"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:clickable="true"
+        android:src="@mipmap/ic_launcher" />
+
+    <!-- android:scaleType="fitXY" -->
+
+    <TextView
+        android:id="@+id/fish_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView_fish_pic"
+        android:layout_toRightOf="@+id/imageView_fish_pic"
+        android:padding="5dp"
+        android:text="Rui" />
+
+    <TextView
+        android:id="@+id/fish_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fish_name"
+        android:layout_below="@+id/fish_name"
+        android:padding="5dp"
+        android:text="1" />
+
+
+    <TextView
+        android:id="@+id/fish_quantity_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fish_name"
+        android:layout_toRightOf="@+id/fish_quantity"
+        android:padding="5dp"
+        android:text="pc" />
+
+
+    <TextView
+        android:id="@+id/fish_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fish_name"
+        android:layout_toRightOf="@+id/fish_quantity_type"
+        android:padding="5dp"
+        android:text="200" />
+
+    <TextView
+        android:id="@+id/textView_fish_loaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fish_name"
+        android:layout_below="@+id/fish_quantity"
+        android:layout_marginTop="6dp"
+        android:text="130 reviews" />
+
+</RelativeLayout> <!-- android:layout_alignParentLeft="true" --><!-- android:layout_centerVertical="true" -->
