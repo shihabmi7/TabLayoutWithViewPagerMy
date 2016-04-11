@@ -1,4 +1,4 @@
-package roy.tablayoutwithviewpager;
+package shihab.tablayoutwithviewpager;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class TabLayoutWithViewPagerActivity extends AppCompatActivity {
 
     ViewPager pager;
     TabLayout tabLayout;
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_tablayout_viewpager);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         fab =(FloatingActionButton)findViewById(R.id.fab);
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Click action
-                Intent intent = new Intent(MainActivity.this, FishItemAddActivity.class);
+                Intent intent = new Intent(TabLayoutWithViewPagerActivity.this, FishItemAddActivity.class);
                 startActivity(intent);
             }
         });

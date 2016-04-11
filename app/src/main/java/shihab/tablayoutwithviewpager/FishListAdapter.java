@@ -1,4 +1,4 @@
-package roy.tablayoutwithviewpager;
+package shihab.tablayoutwithviewpager;
 
 import android.content.Context;
 import android.view.LayoutInflater;

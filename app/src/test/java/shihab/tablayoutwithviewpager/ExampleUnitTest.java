@@ -1,4 +1,4 @@
-package roy.tablayoutwithviewpager;
+package shihab.tablayoutwithviewpager;
 
 import org.junit.Test;
 

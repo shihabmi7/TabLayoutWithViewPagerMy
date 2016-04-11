@@ -1,4 +1,4 @@
-package roy.tablayoutwithviewpager;
+package shihab.tablayoutwithviewpager;
 
 import android.app.Activity;
 import android.app.AlertDialog;
