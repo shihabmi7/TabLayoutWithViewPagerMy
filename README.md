@@ -1,9 +1,11 @@
 # TabLayoutWithViewPagerMy
 
-This project is a sample about how to add tabs in toolbar with material design.
+
+This project is a sample about how to add tabs in toolbar with material design. Currently it's only two tab . You can add more as you need. :) 
+
+The picture looks like:
 
 
-https://raw.githubusercontent.com/shihabmi7/TabLayoutWithViewPagerMy/master/device-2016-04-11-164444.png
-
+![](https://github.com/shihabmi7/TabLayoutWithViewPagerMy/blob/master/device-2016-04-11-164444.png)
 
 
