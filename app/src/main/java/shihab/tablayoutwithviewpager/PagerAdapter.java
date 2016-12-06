@@ -24,7 +24,7 @@ public class PagerAdapter  extends FragmentStatePagerAdapter{
                 frag=new FishMarketFragment();
                 break;
            /* case 2:
-                frag=new StudyFragment();
+                frag=new WeatherFragment();
                 break;*/
         }
         return frag;

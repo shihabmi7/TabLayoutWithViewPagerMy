@@ -18,13 +18,11 @@ import java.util.ArrayList;
 public class MyFishFragment extends Fragment {
 
     FishListAdapter fishListAdapter;
-
     ArrayList<Fish> list = new ArrayList<>();
 
     public MyFishFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
